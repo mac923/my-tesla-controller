@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Secrets - VERY IMPORTANT
+new-private-key.pem # Add the exact name of your private key file
+*.secret
+credentials.json
+config.py # Or specific config files containing secrets
